@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ejercicioDosUno : MonoBehaviour
 {
-    int edad = 19;
-    float altura = 1.67f;
-    string nombre = "Alba";
-
+    //int edad = 19, codigoPostal = 19005, numeroDeHijos = 2,tallaCamisa = 38, dias = 15, contador = 5, minutos = 58;
+    //float altura = 1.67f, peso = 65.5f, precio = 6.5f;
+    //string nombre = "Alba", matriculaCoche = "2546 WFY", tallaCamiseta = "S", mensaje = "Hola";
+    //bool alumnoRepetidor, mayorEdad, genero;
+    //char letra;
 
     // Start is called before the first frame update
     void Start()
