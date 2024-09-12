@@ -8,17 +8,19 @@ public class ejercicioDosDos : MonoBehaviour
     float exp = 15.5f;
     char carac = 'f';
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         Debug.Log(vidas + " " + exp);
         
         float resultadoSuma = vidas + exp;
         float resultadoResta = exp - vidas;
+
+        Debug.Log (resultadoResta + " " + resultadoSuma);
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         
