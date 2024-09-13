@@ -8,13 +8,27 @@ public class ejercicioDosCinco : MonoBehaviour
     int vidasPlayer2 = 2; 
     int vidasPlayer3 = 3; 
     int vidasPlayer4 = 4;
+    int vidasIniciales2;
 
     void Start()
     {
+        Debug.Log("Vidas iniciales Player 1: " +  vidasPlayer1);
+        Debug.Log("Vidas iniciales Player 2: " +  vidasPlayer2);
+        Debug.Log("Vidas iniciales Player 3: " +  vidasPlayer3);
+        Debug.Log("Vidas iniciales Player 4: " +  vidasPlayer4);
+
+        vidasIniciales2 = vidasPlayer2;
         vidasPlayer2 = vidasPlayer3;
-        vidasPlayer3 = vidasPlayer1;
+        Debug.Log("Nuevas vidas Player 2: " + vidasPlayer2);
+        
+         vidasPlayer3 = vidasPlayer1;
+        Debug.Log("Nuevas vidas Player 3: " + vidasPlayer3);
+        
         vidasPlayer1 = vidasPlayer4;
-        vidasPlayer4 = vidasPlayer2;
+        Debug.Log("Nuevas vidas Player 1: " + vidasPlayer1);
+
+        vidasPlayer4 = vidasIniciales2;
+        Debug.Log("Nuevas vidas Player 4: " + vidasPlayer4);
     }
 
     // Update is called once per frame

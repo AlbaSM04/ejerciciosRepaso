@@ -13,7 +13,13 @@ public class ejercicioDosTres : MonoBehaviour
         float resultadoCociente = vidas / exp;
         float resultadoResto = vidas % exp;
         float resultadoDoble = vidas * 2;
-        float resultadoTriple = 3 * exp;
+        float resultadoTriple = exp * 3;
+
+        Debug.Log("Resultado producto: " + resultadoProducto);
+        Debug.Log("Resultado cociente: " + resultadoCociente);
+        Debug.Log("Resultado resto: " + resultadoResto);
+        Debug.Log("Resultado doble: " + resultadoDoble);
+        Debug.Log("Resultado triple: " + resultadoTriple);
     }
 
     // Update is called once per frame

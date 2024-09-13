@@ -9,8 +9,14 @@ public class ejercicioDosCuatro : MonoBehaviour
     void Start()
     {
         vidas += 77;
-        vidas += 3;
+        Debug.Log("Vidas incrementa 77: " + vidas);
+
+        vidas -= 3; 
+        Debug.Log("Vidas decrece 3: " + vidas);
+
         vidas = vidas * 4;
+        Debug.Log("Vidas cuadruplica su valor: " + vidas);
+
     }
 
     // Update is called once per frame

@@ -11,12 +11,12 @@ public class ejercicioDosDos : MonoBehaviour
     
     void Start()
     {
-        Debug.Log(vidas + " " + exp);
+        Debug.Log("Vidas: " + vidas + ". Experiencia: " + exp);
         
         float resultadoSuma = vidas + exp;
         float resultadoResta = exp - vidas;
 
-        Debug.Log (resultadoResta + " " + resultadoSuma);
+        Debug.Log ("Resultados resta: " + resultadoResta + ". Resultado suma: " + resultadoSuma);
         
     }
 
