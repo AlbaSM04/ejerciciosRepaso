@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class ejercicioTresUno : MonoBehaviour
 {
-    int vida, oro;
+    [SerializeField] int vida, oro;
     
     void Start()
     {
-        
+        Debug.Log ("Vida: " +  vida);
+        Debug.Log ("Oro: " +  oro);
     }
 
     
