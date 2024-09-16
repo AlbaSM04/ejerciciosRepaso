@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicioTresDos : MonoBehaviour
+public class EjercicioTresDos : MonoBehaviour
 {
     [SerializeField] string nombre;
     void Start()

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejerciciosTresSeis : MonoBehaviour
+public class EjerciciosTresSeis : MonoBehaviour
 {
     [SerializeField] float velocidadKmH;
     float velocidadMS;

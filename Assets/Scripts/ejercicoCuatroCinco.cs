@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicoCuatroCinco : MonoBehaviour
+public class EjercicoCuatroCinco : MonoBehaviour
 {
     [SerializeField] string moneda;
     void Start()

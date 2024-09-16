@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicioTresTres : MonoBehaviour
+public class EjercicioTresTres : MonoBehaviour
 {
 
     [SerializeField] int numero;

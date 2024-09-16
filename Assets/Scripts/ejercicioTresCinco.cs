@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicioTresCinco : MonoBehaviour
+public class EjercicioTresCinco : MonoBehaviour
 {
     [SerializeField] float radio;
     float area, perimetro;

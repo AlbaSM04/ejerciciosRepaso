@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicioDosSeis : MonoBehaviour
+public class EjercicioDosSeis : MonoBehaviour
 {
     int puntuacionUno = 1, puntuacionDos = 2, puntuacionTres = 3;
     int media;

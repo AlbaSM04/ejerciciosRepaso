@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicioDosSiete : MonoBehaviour
+public class EjercicioDosSiete : MonoBehaviour
 {
     int oroSegundo = 7, despuesCuatroHoras;
 

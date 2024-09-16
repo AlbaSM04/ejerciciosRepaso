@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicioDosTres : MonoBehaviour
+public class EjercicioDosTres : MonoBehaviour
 {
     int vidas = 5;
     float exp = 15.4f;

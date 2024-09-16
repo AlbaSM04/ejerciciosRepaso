@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicioDosOcho : MonoBehaviour
+public class EjercicioDosOcho : MonoBehaviour
 {
     float puntosIniciales = 120f, vidaActual;
 
