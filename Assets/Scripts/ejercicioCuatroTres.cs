@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class ejercicioCuatroTres : MonoBehaviour
 {
-    // Start is called before the first frame update
+    float cantidad;
+    string moneda;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void Convertir ()
     {
-        
+
     }
+
+    
 }
