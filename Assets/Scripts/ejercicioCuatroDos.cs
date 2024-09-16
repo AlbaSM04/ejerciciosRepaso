@@ -7,11 +7,13 @@ public class ejercicioCuatroDos : MonoBehaviour
     
     void Start()
     {
-        ConstruirNombre("Alba", "Simón", "Méndez", 20);    
+        string nombreCompleto = ConstruirNombre("Alba", "Simón", "Méndez", 20); 
+        Debug.Log(nombreCompleto);
     }
 
-    void ConstruirNombre (string nombre, string apellido1, string apellido2, int edad)
+    string ConstruirNombre (string nombre, string apellido1, string apellido2, int edad)
     {
-        Debug.Log("El jugador se llama " + nombre + " " + apellido1 + " " + apellido2 + " y tiene " + edad + " años");
+        string nombreCompleto = "El jugador se llama " + nombre + " " + apellido1 + " " + apellido2 + " y tiene " + edad + " años";
+        return nombreCompleto;
     }
 }

@@ -7,32 +7,34 @@ public class ejercicioCuatroUno : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AreaCirculo(5);
-        AreaTriangulo(4, 5);
-        AreaCuadrado(5);
+        float areaCirculo = AreaCirculo(5);
+        Debug.Log("El area del circulo es: " + areaCirculo);
+       
+        float areaTriangulo = AreaTriangulo(4, 5);
+        Debug.Log("El area del triangulo es: " + areaTriangulo);
+        
+        float areaCuadrado = AreaCuadrado(5);
+        Debug.Log("El area del cuadrado es: " + areaCuadrado);
     }
 
-    void AreaCirculo (float radio)
+    float AreaCirculo (float radio)
     {
         float areaCirculo;
         areaCirculo = (radio * radio) * 3.14f;
-
-        Debug.Log ("El area del circulo es: " + areaCirculo);
+        return areaCirculo;        
     }
 
-    void AreaTriangulo (float altura, float baseTriangulo)
+    float AreaTriangulo (float altura, float baseTriangulo)
     {
         float areaTriangulo;
         areaTriangulo = (baseTriangulo * altura) / 2;
-
-        Debug.Log ("El area del triangulo es: " + areaTriangulo);
+        return areaTriangulo;
     }
 
-    void AreaCuadrado (float lado) 
+    float AreaCuadrado (float lado) 
     {
         float areaCuadrado;
         areaCuadrado = lado * lado;
-
-        Debug.Log("El area del cuadrado es: " + areaCuadrado);
+        return areaCuadrado;
     }
 }

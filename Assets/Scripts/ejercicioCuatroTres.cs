@@ -23,7 +23,7 @@ public class ejercicioCuatroTres : MonoBehaviour
 
     float Convertir (float cantidad)
     {
-        float resultado = 0;
+        float resultado = 0f;
 
         if (moneda == "EUROS")
         {
