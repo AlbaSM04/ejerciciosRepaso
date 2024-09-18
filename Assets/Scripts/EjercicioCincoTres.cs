@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class EjercicioCincoTres : MonoBehaviour
 {
-    [SerializeField]
+    [SerializeField] int numeroEntero;
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (numeroEntero > 0 && numeroEntero < 9)
+        {
+            Debug.Log("El numero esta comprendido entre el cero y el nueve");
+        }
+        else
+        {
+            Debug.Log("El numero no esta comprendido entre el cero y el nueve");
+        }
     }
 }
