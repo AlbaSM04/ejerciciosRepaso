@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class EjercicioSieteDos : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
-        
+        for (int numero = 1; numero <= 100; numero++)
+        {
+            Debug.Log ("El numero es " + numero);
+        }
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
