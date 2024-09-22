@@ -255,11 +255,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1966677379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6286a1b158d1aff4c95d29ad76a2e149, type: 3}
+  m_Script: {fileID: 11500000, guid: f2cf24ab59a2bcf4ab33ff0177e14fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroUno: 5
-  numeroDos: 0
+  horas: 18
+  minutos: 59
+  segundos: 60
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

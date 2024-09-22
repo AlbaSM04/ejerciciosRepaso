@@ -7,7 +7,14 @@ public class EjercicioCincoCinco : MonoBehaviour
     [SerializeField] int nivelJugador;
     void Start()
     {
-        if
+        if(nivelJugador%2 == 0)
+        {
+            Debug.Log("Tu nivel es par");
+        }
+        else if (nivelJugador%2 != 0)
+        {
+            Debug.Log("Tu nivel es inpar");
+        }
     }
 
     // Update is called once per frame
