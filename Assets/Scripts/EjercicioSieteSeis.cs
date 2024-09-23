@@ -16,7 +16,7 @@ public class EjercicioSieteSeis : MonoBehaviour
             numero--;
         }
 
-        for (int numeroNegativoFor = numero * -1; numero <= numeroNegativoFor; numero-- )
+        for (int numeroNegativoFor = numero * -1; numero >= numeroNegativoFor; numero-- )
         {
             Debug.Log("El numero es " + numero + " for");
         }
