@@ -8,15 +8,16 @@ public class EjercicioSieteCinco : MonoBehaviour
     float numeroResultante = 1;
     void Start()
     {
+        
         while (numero >= numeroResultante )
         {
             Debug.Log ("El numero es " + numeroResultante + " con while");
             numeroResultante++;
         }
 
-        for (numeroResultante = 1; numeroResultante <= numero; numeroResultante++) 
+        for (float i = 1; i <= numero; i++) 
         {
-            Debug.Log("El numero es " + numeroResultante + " con for");
+           Debug.Log("El numero es " + i + " con for");
         }
     }
 

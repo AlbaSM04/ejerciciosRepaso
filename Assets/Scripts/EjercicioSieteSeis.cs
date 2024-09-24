@@ -8,6 +8,11 @@ public class EjercicioSieteSeis : MonoBehaviour
     
     void Start()
     {
+        for (int i = numero * -1; i <= numero; i--)
+        {
+            Debug.Log("El numero es " + numero + " for");
+        }
+
         int numeroNegativo = numero * -1;
         while (numero >= numeroNegativo)
         {
@@ -16,10 +21,7 @@ public class EjercicioSieteSeis : MonoBehaviour
             numero--;
         }
 
-        for (int numeroNegativoFor = numero * -1; numero >= numeroNegativoFor; numero-- )
-        {
-            Debug.Log("El numero es " + numero + " for");
-        }
+        
     }
 
     // Update is called once per frame
