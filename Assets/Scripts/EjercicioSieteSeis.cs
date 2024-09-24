@@ -4,27 +4,28 @@ using UnityEngine;
 
 public class EjercicioSieteSeis : MonoBehaviour
 {
-    [SerializeField] int numero;
+    [SerializeField] int numero1;
+    int numero2;
     
     void Start()
     {
-        for (int i = numero * -1; i <= numero; i--)
+        numero2 = numero1;
+        for (int i = (numero1 * -1); i <= numero1; numero1 --)
         {
-            Debug.Log("El numero es " + numero + " for");
+            Debug.Log("El numero es " + numero1 + " for");
         }
 
-        int numeroNegativo = numero * -1;
-        while (numero >= numeroNegativo)
+        int numeroNegativo = numero2 * -1;
+        while (numero2 >= numeroNegativo)
         {
-
-            Debug.Log("El numero es " + numero + " while");
-            numero--;
+            Debug.Log("El numero es " + numero2 + " while");
+            numero2--;
         }
 
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
