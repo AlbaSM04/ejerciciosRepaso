@@ -12,11 +12,11 @@ public class EjercicioSieteNueve : MonoBehaviour
     {
         while (numero2 < numero1)
         {
-            if (numero1 % 3 == 0)
+            numero2++;
+            if (numero2 % 3 == 0)
             {
                 Debug.Log("Multiplos de 3: " + numero2);
             }
-            numero2++;
         }  
     }
 
