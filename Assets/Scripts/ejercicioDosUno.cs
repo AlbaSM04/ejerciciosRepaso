@@ -13,7 +13,7 @@ public class EjercicioDosUno : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        /* for( i= numero; i%numeroEntre == 0; numeronumetre ++) */ 
+        
     }
 
     // Update is called once per frame

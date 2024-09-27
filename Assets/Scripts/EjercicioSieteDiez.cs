@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class EjercicioSieteDiez : MonoBehaviour
 {
-    [SerializeField] int numero1, numero2;
+    [SerializeField] int numeroMenor, numeroMayor;
     void Start()
     {
-        
+        while (numeroMenor <= numeroMayor)
+        {
+            numeroMayor--;
+            Debug.Log("Los numero entre medias son " + numeroMayor);
+        }
     }
 
     // Update is called once per frame

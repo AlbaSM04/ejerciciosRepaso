@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class EjercicioSieteDoce : MonoBehaviour
 {
-    [SerializeField] int numeroUno, numero2;
-    int sumaNumeros;
     void Start()
     {
-        for (int i = 0; i < length; i++)
-        {
-            
-        }
+        int resultados = SumarTodosLosNumeros(6, 4);
+        Debug.Log(resultados);
     }
 
-    // Update is called once per frame
-    void Update()
+    int SumarTodosLosNumeros(int numeroMayor, int numeroMenor)
     {
-        
+        int sumaNumeros = 0;
+        while (numeroMenor <= numeroMayor)
+        {
+            sumaNumeros += numeroMenor;
+            numeroMenor++;
+        }
+        return sumaNumeros;
     }
 }
