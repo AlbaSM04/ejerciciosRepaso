@@ -10,7 +10,14 @@ public class EjercicioSieteTrece : MonoBehaviour
     void Start()
     {
         bool resultado = primo(numeroConsulta);
-        Debug.Log(resultado);
+        if (resultado == true)
+        {
+            Debug.Log("Es primo");
+        }
+        else if (resultado != true)
+        {
+            Debug.Log("No es primo");
+        }
     }
 
     
@@ -21,7 +28,6 @@ public class EjercicioSieteTrece : MonoBehaviour
             return false;
         }
 
-        
         for (int i = 2; i < numeroConsulta; i++)
         {
             if (numeroConsulta % i == 0)
